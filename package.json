@@ -1,0 +1,21 @@
+{
+  "name": "ajp-color-theme",
+  "displayName": "AJP Color Theme",
+  "description": "a mix between Esmerald token coloring and Viow Neon color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AJP",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AJP-color-theme.json"
+      }
+    ]
+  }
+}
