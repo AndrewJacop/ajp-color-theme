@@ -2,7 +2,8 @@
   "name": "ajp-color-theme",
   "displayName": "AJP Color Theme",
   "description": "Python Dedicated Color There - a mix between Esmerald token coloring and Viow Neon color theme",
-  "version": "0.0.1",
+  "publisher": "AndrewJacop",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/AndrewJacop/ajp-color-theme.git"
