@@ -1,5 +1,7 @@
 {
 	"name": "AJP",
+	"semanticHighlighting": true,
+	"type": "dark",
 	"colors": {
 		"activityBar.background": "#181b25",
 		"activityBar.foreground": "#cdcdcd",
@@ -96,7 +98,7 @@
 				"keyword.control.anchor.regexp"
 			],
 			"settings": {
-				"foreground": "#DCAAAA"
+				"foreground": "#dcaaaa"
 			}
 		},
 		{
@@ -151,6 +153,7 @@
 			}
 		},
 		{
+			"name": "",
 			"scope": [
 				"meta.embedded",
 				"source.groovy.embedded",
@@ -167,7 +170,7 @@
 				"heading.1.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -176,7 +179,7 @@
 				"heading.2.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#FF8F8F"
+				"foreground": "#ff8f8f"
 			}
 		},
 		{
@@ -185,7 +188,7 @@
 				"heading.3.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#FFDA96"
+				"foreground": "#ffda96"
 			}
 		},
 		{
@@ -211,7 +214,7 @@
 				"text.html.markdown markup.inline.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#D79BFF"
+				"foreground": "#d79bff"
 			}
 		},
 		{
@@ -250,7 +253,7 @@
 				"markup.quote markup.bold string"
 			],
 			"settings": {
-				"foreground": "#FF8F8F",
+				"foreground": "#ff8f8f",
 				"fontStyle": "bold"
 			}
 		},
@@ -259,7 +262,7 @@
 				"markup.underline"
 			],
 			"settings": {
-				"foreground": "#D79BFF",
+				"foreground": "#d79bff",
 				"fontStyle": "underline"
 			}
 		},
@@ -292,7 +295,7 @@
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#D79BFF"
+				"foreground": "#d79bff"
 			}
 		},
 		{
@@ -308,7 +311,7 @@
 				"markup.raw.block"
 			],
 			"settings": {
-				"foreground": "#D79BFF"
+				"foreground": "#d79bff"
 			}
 		},
 		{
@@ -354,7 +357,7 @@
 		{
 			"scope": "punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "#FFDA96"
+				"foreground": "#ffda96"
 			}
 		},
 		{
@@ -641,16 +644,18 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#ff0000"
 			}
 		},
 		{
+			"name": "Assignment =",
 			"scope": "keyword.operator.assignment",
 			"settings": {
-				"foreground": "#FF8F8F"
+				"foreground": "#ff8f8f"
 			}
 		},
 		{
+			"name": "Numbers",
 			"scope": [
 				"constant.numeric",
 				"variable.other.enummember"
@@ -660,54 +665,60 @@
 			}
 		},
 		{
+			"name": "Operators",
 			"scope": [
-				"keyword.operator",
-				"keyword.operator.bitwise.python"
+				"keyword.operator", "keyword.operator.bitwise.python"
 			],
 			"settings": {
-				"foreground": "#F4F4F4"
+				"foreground": "#f4f4f4"
 			}
 		},
 		{
+			"name": "Emphasis",
 			"scope": "emphasis",
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
 		{
+			"name": "Strong",
 			"scope": "strong",
 			"settings": {
 				"fontStyle": "bold"
 			}
 		},
 		{
+			"name": "Comments",
 			"scope": [
 				"comment"
 			],
 			"settings": {
-				"foreground": "#6286A7",
+				"foreground": "#6286a7",
 				"fontStyle": "italic"
 			}
 		},
 		{
+			"name": "Python: docstrings",
 			"scope": [
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#6286A7"
+				"foreground": "#6286a7"
 			}
 		},
 		{
+			"name": "Comments & Python Docstrings: punctuation",
 			"scope": [
 				"punctuation.definition.comment",
 				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
 				"string.quoted.docstring.multi.python punctuation.definition.string.end.python"
 			],
 			"settings": {
-				"foreground": "#65B5FF42"
+				"foreground": "#65b5ff42"
 			}
 		},
 		{
+			"name": "Contants",
 			"scope": [
 				"constant.language",
 				"variable.other.constant",
@@ -718,6 +729,7 @@
 			}
 		},
 		{
+			"name": "Strings",
 			"scope": [
 				"string",
 				"meta.embedded.assembly",
@@ -728,23 +740,26 @@
 			}
 		},
 		{
+			"name": "Strings: punctuation",
 			"scope": [
 				"punctuation.definition.string.",
 				"punctuation.definition.string string.quoted.single.python"
 			],
 			"settings": {
-				"foreground": "#84A640"
+				"foreground": "#84a640"
 			}
 		},
 		{
+			"name": "HTML: tag: name",
 			"scope": [
 				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#FF8F8F"
+				"foreground": "#ff8f8f"
 			}
 		},
 		{
+			"name": "HTML: tag: punctuation",
 			"scope": [
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html"
@@ -754,6 +769,7 @@
 			}
 		},
 		{
+			"name": "HTML: properties",
 			"scope": [
 				"entity.other.attribute-name"
 			],
@@ -762,15 +778,17 @@
 			}
 		},
 		{
+			"name": "HTML: properties: punctuation",
 			"scope": [
 				"punctuation.separator.key-value.html",
 				"text.html.derivative punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#2A6696"
+				"foreground": "#2a6696"
 			}
 		},
 		{
+			"name": "HTML: properties: text",
 			"scope": [
 				"text.html.derivative string.quoted.double.html"
 			],
@@ -779,6 +797,7 @@
 			}
 		},
 		{
+			"name": "HTML: comment",
 			"scope": [
 				"comment.block.html",
 				"punctuation.definition.comment.html"
@@ -789,23 +808,26 @@
 			}
 		},
 		{
+			"name": "HTML: text",
 			"scope": [
 				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
+			"name": "CSS: element name",
 			"scope": [
 				"entity.name.tag.css",
 				"entity.name.tag.less"
 			],
 			"settings": {
-				"foreground": "#FFDA96"
+				"foreground": "#ffda96"
 			}
 		},
 		{
+			"name": "CSS: others",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"source.css entity.other.attribute-name.class",
@@ -818,16 +840,18 @@
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#FFDA96"
+				"foreground": "#ffda96"
 			}
 		},
 		{
+			"name": "Variable Language",
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#569CD6"
 			}
 		},
 		{
+			"name": "Definitions: classes & functions",
 			"scope": [
 				"storage.type.class",
 				"storage.type.function"
@@ -837,6 +861,7 @@
 			}
 		},
 		{
+			"name": "Function",
 			"scope": [
 				"entity.name.function",
 				"support.function",
@@ -848,10 +873,11 @@
 				"punctuation.separator.arguments.python"
 			],
 			"settings": {
-				"foreground": "#FFDA96"
+				"foreground": "#ffda96"
 			}
 		},
 		{
+			"name": "Class - Type",
 			"scope": [
 				"support.class",
 				"support.type",
@@ -893,6 +919,7 @@
 			}
 		},
 		{
+			"name": "Control Flow",
 			"scope": [
 				"keyword.control",
 				"source.cpp keyword.operator.new",
@@ -906,10 +933,11 @@
 				"punctuation.separator.colon.python"
 			],
 			"settings": {
-				"foreground": "#D79BFF"
+				"foreground": "#d79bff"
 			}
 		},
 		{
+			"name": "Variables",
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
@@ -923,6 +951,7 @@
 			}
 		},
 		{
+			"name": "Function Parameters",
 			"scope": [
 				"variable.parameter"
 			],
@@ -931,6 +960,7 @@
 			}
 		},
 		{
+			"name": "self & cls",
 			"scope": [
 				"variable.parameter.function.language.special.self.python",
 				"variable.parameter.function.language.special.cls.python"
@@ -940,6 +970,7 @@
 			}
 		},
 		{
+			"name": "Booleans & None",
 			"scope": [
 				"constant.language.python"
 			],
@@ -948,14 +979,16 @@
 			}
 		},
 		{
+			"name": "Modules",
 			"scope": [
 				"entity.name.namespace"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
+			"name": "Bitwise",
 			"scope": [
 				"keyword.operator.bitwise.python"
 			],
@@ -964,33 +997,37 @@
 			}
 		},
 		{
+			"name": "Django: Variables",
 			"scope": [
 				"variable.other.django",
 				"keyword.operator.getter.django",
 				"meta.variable.structure.django"
 			],
 			"settings": {
-				"foreground": "#FFDA96"
+				"foreground": "#ffda96"
 			}
 		},
 		{
+			"name": "Django: struct href",
 			"scope": [
 				"text.html.derivative string.quoted.double.html meta.tag.structure.django "
 			],
 			"settings": {
-				"foreground": "#FFDA96",
+				"foreground": "#ffda96",
 				"fontStyle": ""
 			}
 		},
 		{
+			"name": "Extension: Better Jinja: HTML: text",
 			"scope": [
 				"text.html.jinja"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
+			"name": "Extension: Better Jinja: HTML: atributes ",
 			"scope": [
 				"text.html.jinja string.quoted.double.html",
 				"text.html.jinja punctuation.definition.string"
@@ -1002,7 +1039,7 @@
 		{
 			"scope": "text.html.django",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -1010,7 +1047,7 @@
 				"text.html.django storage.type.templatetag.django keyword.operator.django"
 			],
 			"settings": {
-				"foreground": "#D79BFF"
+				"foreground": "#d79bff"
 			}
 		},
 		{
@@ -1035,7 +1072,7 @@
 				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.templatetag.django string.quoted.single.html punctuation.definition.string.begin.html"
 			],
 			"settings": {
-				"foreground": "#FFDA96"
+				"foreground": "#ffda96"
 			}
 		},
 		{
@@ -1044,7 +1081,7 @@
 				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.templatetag.django string.quoted.single.html punctuation.definition.string.end.html"
 			],
 			"settings": {
-				"foreground": "#84A640"
+				"foreground": "#84a640"
 			}
 		},
 		{
@@ -1055,7 +1092,7 @@
 				"storage.type.templatetag.django entity.tag.tagbraces.django"
 			],
 			"settings": {
-				"foreground": "#08C19C"
+				"foreground": "#08c19c"
 			}
 		},
 		{
@@ -1063,11 +1100,12 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#FF8F8F",
+				"foreground": "#ff8f8f",
 				"fontStyle": "italic"
 			}
 		},
 		{
+			"name": "JSX: Punctuation",
 			"scope": [
 				"punctuation.definition.tag.begin.js.jsx",
 				"punctuation.definition.tag.end.js.jsx"
@@ -1077,29 +1115,35 @@
 			}
 		},
 		{
+			"name": "JSX: Template Strings",
 			"scope": [
 				"meta.jsx.children.js.jsx"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
+			"name": "JSX: Logical Operators",
 			"scope": [
 				"keyword.operator.logical.js.jsx"
 			],
 			"settings": {
-				"foreground": "#D79BFF"
+				"foreground": "#d79bff"
 			}
 		},
 		{
+			"name": "Javascript: Async Await",
 			"scope": [
 				"storage.modifier.async.js",
 				"meta.function.js meta.block.js meta.block.js meta.var.expr.js keyword.control.flow.js"
 			],
 			"settings": {
-				"foreground": "#FF8F8F"
+				"foreground": "#ff8f8f"
 			}
 		}
-	]
+	],
+	"semanticTokenColors": {
+		"variable.defaultLibrary:javascript": "#5DEED1"
+	}
 }
